@@ -1,0 +1,17 @@
+:host {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "toolbar toolbar"
+    "sidenav student"
+    "sidenav student";
+    grid-template-columns: 120px 1fr;
+}
+
+.content {
+    background-color: gray;
+    grid-area: student;
+    height: 100vh;
+    font-size: larger;
+    font-weight: bold;
+}
